@@ -1,0 +1,18 @@
+.img{
+    width: 300px;
+    height: 500px;
+    background-color: aqua;
+    object-fit: contain;
+}
+
+
+.bgimg{
+    background: url("https://images.unsplash.com/photo-1737142928492-13e7b0efe912?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1MXx8fGVufDB8fHx8fA%3D%3D");
+    width: 400px;
+    height: 400px;
+    /* background-size: cover; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 10px 5px;
+    filter: blur(2px);
+}

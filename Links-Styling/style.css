@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+/* .link-styling{
+    color: magenta;
+    text-decoration: none;
+} */
+ 
+
+.link-styling:link{
+    color: magenta;
+    text-decoration: none;
+} 
+
+
+
+.link-styling:visited{
+    color: orange;
+    text-decoration: none;
+}
+
+.link-styling:hover{
+    color: green;
+    background-color:white;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.link-styling{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
